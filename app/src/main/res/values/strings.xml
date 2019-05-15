@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BuilditBigger</string>
+    <string name="instructions">Press the button for find joke!</string>
+    <string name="button_text">Tell Joke</string>
+    <string name="action_settings">Settings</string>
+    <string name="retrieval_error">An error occurred while receiving the joke</string>
+</resources>
