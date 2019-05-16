@@ -1,5 +1,6 @@
 package com.example.builditbigger;
 
+import android.content.Context;
 import android.os.AsyncTask;
 
 import com.google.api.client.extensions.android.http.AndroidHttp;
@@ -23,6 +24,9 @@ public class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
     public EndpointsAsyncTask(DataReceivedCallback cb) {
         this.dataReceivedCallback = cb;
     }
+    public EndpointsAsyncTask(MainActivity mainActivity) {
+    }
+
 
     @Override
     protected String doInBackground(Void... params) {
